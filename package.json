@@ -1,0 +1,21 @@
+{
+    "name": "monofly",
+    "displayName": "MonoFly",
+    "description": "A Lower contast version of Monokai with Pug & SCSS",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MonoFly",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonoFly-color-theme.json"
+            }
+        ]
+    }
+}
